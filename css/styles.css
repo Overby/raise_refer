@@ -1,3 +1,38 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+#content {overflow: auto; }
+#nav, #feature, #footer {
+    margin: 1%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.column3 {margin-right: 0%; }
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+
+
+/*
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +49,10 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+*/
 
 
-
-/*-------Reusable throughout--------*/
+/*-------Reusable throughout--------
 
 .row {
     max-width: 1140px;
@@ -31,8 +66,8 @@ section {
 .box {
     padding: 1%;
 }
-
-/* ----- HEADING sections----- */
+*/
+/* ----- HEADING sections-----
 
 h1,
 h2 {
@@ -48,15 +83,4 @@ h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
-
-/*__________________ */
-
-
-.logo {
-    
-    
-}
-
-.landing-page {
-    
-}
+*/
